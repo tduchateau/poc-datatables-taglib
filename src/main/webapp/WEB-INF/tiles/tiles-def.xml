@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+
+   <!-- Main layout -->
+   <definition name="mainLayout" template="/WEB-INF/jsp/common/mainLayout.jsp">
+      <put-attribute name="tabHome" value="" />
+      <put-attribute name="tabBasic" value="" />
+      <put-attribute name="tabAdvanced" value="" />
+      <put-attribute name="title" value="" />
+      <put-attribute name="content" value="" />
+   </definition>
+
+   <!-- Basic examples -->
+   <definition name="basic.default" extends="mainLayout">
+      <put-attribute name="tabBasic" value="active" />
+      <put-attribute name="title" value="Default configuration" />
+      <put-attribute name="content" value="/WEB-INF/jsp/basic/default.jsp" />
+   </definition>
+
+</tiles-definitions>
