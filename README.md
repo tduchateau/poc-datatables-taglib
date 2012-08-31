@@ -1,6 +1,6 @@
 # POC DataTables-taglib
 
-## Prerequites
+## Prerequisites
  - Maven 3.x
  - A web browser 
 
