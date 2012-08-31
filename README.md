@@ -8,10 +8,10 @@ Welcome to the DataTables-taglib POC.
 ## How to use
 
 ### Step 1
-Clone the current directory.
+Clone the current repository.
 
 ### Step 2
-Open a console/termine at the root of the project, i.e. the directory that contains the `pom.xml` file and execute the following Maven command :
+Open a console/terminal at the root of the project, i.e. the directory that contains the `pom.xml` file and execute the following Maven command :
 
 ``` html
 mvn jetty:run
