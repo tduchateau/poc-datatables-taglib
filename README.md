@@ -1,5 +1,4 @@
 # POC DataTables-taglib
-Welcome to the DataTables-taglib POC.
 
 ## Prerequites
  - Maven 3.x
