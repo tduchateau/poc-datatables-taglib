@@ -18,6 +18,6 @@ mvn jetty:run
 ```
 
 ### Step 3
-Go to http://localhost:8080/poc-datatables-taglib.
+Go to (http://localhost:8080/poc-datatables-taglib) and have fun !
 
 That's all ! :-)
