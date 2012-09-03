@@ -18,4 +18,14 @@ public class BasicController extends BaseController {
 	public String goDefault(ModelMap model) {
 		return "basic.default";
 	}
+	
+	@RequestMapping(value="/sorting", method = RequestMethod.GET)
+	public String goSorting(ModelMap model) {
+		return "basic.sorting";
+	}
+	
+	@RequestMapping(value="/multiple", method = RequestMethod.GET)
+	public String goMultiple(ModelMap model) {
+		return "basic.multiple";
+	}
 }

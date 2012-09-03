@@ -1,6 +1,3 @@
-/**
- * 
- */
 package fr.tduchateau.coordinator;
 
 import java.util.List;

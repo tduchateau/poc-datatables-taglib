@@ -19,5 +19,16 @@
       <put-attribute name="title" value="Default configuration" />
       <put-attribute name="content" value="/WEB-INF/jsp/basic/default.jsp" />
    </definition>
-
+   
+   <definition name="basic.sorting" extends="mainLayout">
+      <put-attribute name="tabBasic" value="active" />
+      <put-attribute name="title" value="Table sorting" />
+      <put-attribute name="content" value="/WEB-INF/jsp/basic/sorting.jsp" />
+   </definition>
+   
+   <definition name="basic.multiple" extends="mainLayout">
+      <put-attribute name="tabBasic" value="active" />
+      <put-attribute name="title" value="Multiple tables" />
+      <put-attribute name="content" value="/WEB-INF/jsp/basic/multiple.jsp" />
+   </definition>
 </tiles-definitions>
