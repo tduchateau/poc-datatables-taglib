@@ -4,6 +4,9 @@
  - Maven 3.x
  - A web browser 
 
+## Intro
+This POC shows how to use DataTables-taglib, a JSP taglib for [DataTables](http://datatables.net), in a basic SpringMVC/Tiles based web application.
+
 ## How to use
 
 ### Step 1
