@@ -5,7 +5,7 @@
  - A web browser 
 
 ## Intro
-This POC shows how to use DataTables-taglib, a JSP taglib for [DataTables](http://datatables.net), in a basic SpringMVC/Tiles based web application.
+This POC shows how to use [DataTables-taglib](http://github.com/tduchateau/DataTables-taglib), a JSP taglib for [DataTables](http://datatables.net), in a basic [SpringMVC](http://static.springsource.org/spring/docs/current/spring-framework-reference/html/mvc.html)/[Tiles](http://static.springsource.org/spring/docs/3.0.x/reference/view.html) based web application.
 
 ## How to use
 
